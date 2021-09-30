@@ -216,6 +216,7 @@ proc run_non_interactive_mode {args} {
 	save_state
 	generate_final_summary_report
 
+    puts_info [array get ::env]
 	puts_success "Flow Completed Without Fatal Errors."
 }
 
